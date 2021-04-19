@@ -1,0 +1,124 @@
+/* TABLETS and COMPUTERS: from 1024 px to 1200 px */
+
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row { padding: 0 2%; }
+}
+
+/* TABLETS: from 768 px to 1023 px */
+
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    section { padding: 60px  0; }
+
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .steps-box:first-child { margin-top: 20px; }
+    .steps-box:last-child { margin-top: 30px; }
+    .app-screen { width: 50%; }
+    .works-step { margin-bottom: 30px; }
+    .works-step:last-of-type { margin-bottom: 50px; }
+    .works-step div { margin-right: 25px; }
+
+    .city-feature { font-size: 90% }
+    .city-feature ion-icon {
+        width: 17px;
+        font-size: 100%;
+        margin-right: 1px;
+    }
+
+    .plan-box {
+        width: 100%;
+        margin-left: 0;
+        font-size: 90%;
+    }
+    .plan-box div { padding: 10px; }
+    .plan-box ul li { margin-bottom: 5px; }
+    .plan-box ul li:first-child { margin-top: 5px; }
+    .plan-box ul li:last-child { margin-bottom: 7px; }
+
+    .contact-form { width: 80%; }
+}
+
+/* PHONES: from 481 px to 767 px */
+
+@media only screen and (max-width: 767px) {
+    body { font-size: 16px; }
+    section { padding: 30px 0; }
+
+    .row,
+    .hero-text-box { padding: 0 4%; }
+
+    .col { 
+        width: 100%;
+        margin: 0 0 4% 0;
+        }
+
+    .main-navigation { display: none; }
+    .main-navigation {
+        float: left;
+        margin-top: 30px;
+    }
+
+    .main-navigation li {
+        display: block;
+        margin: 0 0 15px 25px;
+    }
+
+    .main-navigation li a:link,
+    .main-navigation li a:visited {
+        padding: 0;
+        display: block;
+        font-size: 100%;
+        border: 0;
+    }
+
+    .mobile-nav-icon { display: inline-block; }
+    h1 { font-size: 180%; }
+    h2 { font-size: 150%; }
+
+    .sticky-navigation .main-navigation li {
+        display: block;
+        margin: 20px 0 10px 25px;
+    }
+
+    .sticky-navigation .main-navigation li a:link,
+    .sticky-navigation .main-navigation li a:visited { padding: 0; }
+    .sticky-navigation .mobile-nav-icon { margin-top: 15px; }
+
+    .long-copy {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .steps-box:first-child { 
+        margin-top: 20px;
+        text-align: center;
+     }
+    .steps-box:last-child { margin-top: 30px; }
+    .app-screen { 
+        width: 40%;
+    }
+    .works-step { margin-bottom: 20px; }
+    .works-step:last-of-type { margin-bottom: 30px; }
+    .works-step div { 
+        margin-right: 20px;
+        height: 45px;
+        width: 45px;
+        border: 1px solid #e67e22;
+    }
+}
+
+/* SMALL PHONES: from 0 to 480 px */
+
+@media only screen and (max-width: 480px) {
+    section { padding: 25px 0; }
+    .contact-form { width: 100%; }
+}
